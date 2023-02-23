@@ -1,0 +1,41 @@
+{
+  "name": "@dashkite/genie-dracarys",
+  "version": "0.0.0",
+  "description": "Cache management for Dracarys cache",
+  "exports": {
+    ".": {
+      "node": "./build/node/src/index.js"
+    }
+  },
+  "main": "build/node/src/index.js",
+  "files": [
+    "build/node/src"
+  ],
+  "scripts": {
+    "test": "genie test",
+    "build": "genie build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashkite/genie-dracarys.git"
+  },
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "Dan Yoder",
+      "email": "dan@dashkite.com"
+    }
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/dashkite/genie-dracarys/issues"
+  },
+  "homepage": "https://github.com/dashkite/genie-dracarys#readme",
+  "devDependencies": {
+    "@dashkite/genie": "^0.5.11",
+    "@dashkite/genie-presets": "^0.6.2"
+  },
+  "dependencies": {
+    "@dashkite/dracarys": "link:../dracarys"
+  }
+}
