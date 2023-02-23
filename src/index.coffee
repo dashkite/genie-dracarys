@@ -10,10 +10,14 @@ export default (genie) ->
       client.clean()
       
     genie.define "dracarys:delete", ->
-      client.delete()
+      client.undeploy()
 
     genie.define "dracarys:create", ->
-      client.create()
+      client.deploy()
+
+    genie.define "dracarys:status", ->
+      status = await client.status()
+      console.log { status }
 
   
   

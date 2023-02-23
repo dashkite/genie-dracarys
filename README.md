@@ -1,3 +1,3 @@
-# Genie Modules
+# Genie Dracarys
 
-_Module publishing support for DashKite modules._
+_Cache management tasks for Dracarys._
