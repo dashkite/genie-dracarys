@@ -32,8 +32,7 @@
   },
   "homepage": "https://github.com/dashkite/genie-dracarys#readme",
   "devDependencies": {
-    "@dashkite/genie": "link:../genie",
-    "@dashkite/genie-presets": "link:../genie-presets"
+    "@dashkite/genie": "link:../genie"
   },
   "dependencies": {
     "@dashkite/dracarys": "link:../dracarys"
