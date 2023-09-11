@@ -32,7 +32,8 @@
   },
   "homepage": "https://github.com/dashkite/genie-dracarys#readme",
   "devDependencies": {
-    "@dashkite/genie": "link:../genie"
+    "@dashkite/genie": "link:../genie",
+    "@dashkite/genie-coffee": "link:../genie-coffee"
   },
   "dependencies": {
     "@dashkite/dracarys": "link:../dracarys"
