@@ -1,13 +1,18 @@
-lockfileVersion: 5.4
+lockfileVersion: '6.0'
 
-specifiers:
-  '@dashkite/dracarys': link:../dracarys
-  '@dashkite/genie': link:../genie
-  '@dashkite/genie-coffee': link:../genie-coffee
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
-  '@dashkite/dracarys': link:../dracarys
+  '@dashkite/dracarys':
+    specifier: link:../dracarys
+    version: link:../dracarys
 
 devDependencies:
-  '@dashkite/genie': link:../genie
-  '@dashkite/genie-coffee': link:../genie-coffee
+  '@dashkite/genie':
+    specifier: link:../genie
+    version: link:../genie
+  '@dashkite/genie-coffee':
+    specifier: link:../genie-coffee
+    version: link:../genie-coffee
