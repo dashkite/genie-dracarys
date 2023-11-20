@@ -6,6 +6,8 @@ export default (genie) ->
   
     client = Dracarys.Client.create options.name
 
+    # genie.on "deploy", "dracarys:create"
+
     genie.define "dracarys:clear", ->
       client.clear()
       
