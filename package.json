@@ -36,6 +36,7 @@
     "@dashkite/genie-coffee": "link:../genie-coffee"
   },
   "dependencies": {
-    "@dashkite/dracarys": "link:../dracarys"
+    "@dashkite/dracarys": "link:../dracarys",
+    "@dashkite/drn-sky": "link:../drn-sky"
   }
 }

@@ -1,10 +1,12 @@
 import * as Dracarys from "@dashkite/dracarys"
+import * as DRN from "@dashkite/drn-sky"
 
 export default (genie) ->
 
   if ( options = genie.get "dracarys" )?
   
-    client = Dracarys.Client.create options.name
+    name = await DRN.resolve options.name
+    client = Dracarys.Client.create name
 
     # genie.on "deploy", "dracarys:create"
 
