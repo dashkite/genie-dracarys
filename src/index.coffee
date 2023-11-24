@@ -8,15 +8,15 @@ export default (genie) ->
     name = await DRN.resolve options.name
     client = Dracarys.Client.create name
 
-    # genie.on "deploy", "dracarys:create"
+    genie.on "deploy", "dracarys:deploy"
 
     genie.define "dracarys:clear", ->
       client.clear()
       
-    genie.define "dracarys:delete", ->
+    genie.define "dracarys:undeploy", ->
       client.undeploy()
 
-    genie.define "dracarys:create", ->
+    genie.define "dracarys:deploy", ->
       client.deploy()
 
     genie.define "dracarys:status", ->
