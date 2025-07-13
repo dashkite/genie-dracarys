@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "@dashkite/dracarys": "link:../dracarys",
-    "@dashkite/drn-sky": "link:../drn-sky"
+    "@dashkite/drn-sky": "0.2.0"
   }
 }
