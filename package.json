@@ -40,7 +40,7 @@
     "@dashkite/genie-release": "^0.2.10"
   },
   "dependencies": {
-    "@dashkite/dracarys": "link:../dracarys",
+    "@dashkite/dracarys": "0.2.0",
     "@dashkite/drn-sky": "0.4.0"
   }
 }
