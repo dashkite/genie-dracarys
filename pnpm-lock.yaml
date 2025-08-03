@@ -12,12 +12,12 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0
       '@dashkite/drn-sky':
-        specifier: ^0.8.3
-        version: 0.8.3(@aws-sdk/credential-provider-node@3.529.0)
+        specifier: ^0.8.4
+        version: 0.8.4(@aws-sdk/credential-provider-node@3.529.0)
     devDependencies:
       '@dashkite/genie':
-        specifier: ^0.20.6
-        version: 0.20.6
+        specifier: ^0.20.7
+        version: 0.20.7
       '@dashkite/genie-clean':
         specifier: ^0.9.0
         version: 0.9.0
@@ -840,11 +840,11 @@ packages:
   '@dashkite/dracarys@0.2.0':
     resolution: {integrity: sha512-ysXI+GjlPDNUZjr5DV8oI+24gO5m79S6pVFDhqfKIgH9z6ovgv8RSHz+LzdIEaHa3437uwuxE2sINSVbBcftSA==}
 
-  '@dashkite/drn-sky@0.8.3':
-    resolution: {integrity: sha512-wdzYp+4/NDyJ7YLGLz52rvaS9Fzf1ezjHzJtdAVMd/umiHlL78vI7bNvYk+DcUmPe+g2Fp0gnjfg9xPxfvtRhg==}
+  '@dashkite/drn-sky@0.8.4':
+    resolution: {integrity: sha512-Q36ctKK3e0aaj/NOunqqVzwPIS+E6X3u6ErVOs/P+S2LGwiFqYdyGZsGUTixgsI8vg7vnZ9QrtlJM/Vq0+L4ag==}
 
-  '@dashkite/drn@0.12.3':
-    resolution: {integrity: sha512-I+PYPP3s9T4iMP0BM4hPHVFwcbifuQ8JC0CK1EcUN0QJ23vma/5EMem/cTZ0iP6W0dfMBnYdsNBPZWD9RCSFmw==}
+  '@dashkite/drn@0.12.5':
+    resolution: {integrity: sha512-3N1KLg2JjiccegDUPaaWpIrC9pzFGUAAIiMQU1g7ZBa7Bh9n5CSr+rvyyirRF0ZiN97ZRGdlJI0oVGG6kBwIPg==}
 
   '@dashkite/genie-clean@0.9.0':
     resolution: {integrity: sha512-cR5IaFycabxIOH0XrExG5DCrm91milsdPqt104+AcIFEtpthwQ55lgOkS660tC8l7SxnwZzMZbZxHP3oK0iT0A==}
@@ -855,8 +855,8 @@ packages:
   '@dashkite/genie-release@0.4.3':
     resolution: {integrity: sha512-9qqf7L80jmrRDPw0vhb475ed3hMDPWU782pH0bos4DdjyyObVHZePf26tgaeO9YSaFu4UC/RURxKKh+XmlqOIw==}
 
-  '@dashkite/genie@0.20.6':
-    resolution: {integrity: sha512-X623qdU3bgTBWPM2nQKrJ1uqNmPGbE3TR6VnrTBE6V7SziV4dNnWTkak9ShiIjltg1mGfNoxkbOXa3DDtynF+g==}
+  '@dashkite/genie@0.20.7':
+    resolution: {integrity: sha512-jbLlY1/1A0UWx1r0z5RJEJIkIkcOvd3CAh1AmKFeZC2ydS0L3p2r388K6X1PrRlJkOa+pJkiupD426HaJXFShg==}
     engines: {node: '>=20.0.0'}
     hasBin: true
 
@@ -3958,11 +3958,11 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@dashkite/drn-sky@0.8.3(@aws-sdk/credential-provider-node@3.529.0)':
+  '@dashkite/drn-sky@0.8.4(@aws-sdk/credential-provider-node@3.529.0)':
     dependencies:
       '@dashkite/bake': 0.0.6
       '@dashkite/dolores': 0.8.0(@aws-sdk/credential-provider-node@3.529.0)
-      '@dashkite/drn': 0.12.3
+      '@dashkite/drn': 0.12.5
       '@dashkite/joy': 0.7.0
       '@dashkite/sky-local-storage': 0.8.0
       '@dashkite/xrl': 0.4.0
@@ -3974,7 +3974,7 @@ snapshots:
       - aws-crt
       - encoding
 
-  '@dashkite/drn@0.12.3':
+  '@dashkite/drn@0.12.5':
     dependencies:
       '@dashkite/bake': 0.0.6
       '@dashkite/joy': 0.7.0
@@ -4007,7 +4007,7 @@ snapshots:
       '@dashkite/zephyr': 0.12.1
       dax-sh: 0.43.2
 
-  '@dashkite/genie@0.20.6':
+  '@dashkite/genie@0.20.7':
     dependencies:
       '@dashkite/joy': 0.7.0
       '@dashkite/kaiko': 0.3.3
