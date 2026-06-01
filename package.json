@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "@dashkite/dracarys": "^0.2.0",
-    "@dashkite/drn-sky": "^0.8.20"
+    "@dashkite/drn-sky": "^0.8.22"
   }
 }
