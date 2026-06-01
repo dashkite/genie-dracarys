@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/genie-dracarys",
-  "version": "0.5.21",
+  "version": "0.5.22",
   "description": "Cache management for Dracarys cache",
   "exports": {
     ".": {
